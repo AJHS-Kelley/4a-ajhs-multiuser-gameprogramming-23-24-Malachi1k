@@ -1,5 +1,12 @@
 // Malachi Smith, Program Template, v0.02
 using System; 
+/*
+Missing Examples
+Method with Multiple Parameters
+Method with Default Parameters
+Method Class using Named Arguments
+Method Overloading 
+*/ 
 
 namespace MethodsParameters
 {
