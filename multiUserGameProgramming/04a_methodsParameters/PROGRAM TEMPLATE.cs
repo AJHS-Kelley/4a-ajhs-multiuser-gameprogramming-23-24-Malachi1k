@@ -1,4 +1,4 @@
-// Malachi Smith, Program Template, v0.06
+// Malachi Smith, Program Template, v0.07
 using System; 
 /*
 Missing Examples
@@ -76,3 +76,21 @@ namespace MethodsParameters
             Console.WriteLine("Sum: "+ sum);
             return sum;
         }
+
+
+        static void Main(string[] args)
+        {
+            //myMethod();
+            //DoubleUp();
+            //MakePancakes();
+            //MakeEgges(10."sunny side up");
+            //MakeBurger();
+            //MakeBurger(10);
+            //AllMyChildren(child3: "steve", child2: "susan", child1: "chewbaca");
+            FindSum(1,5);
+            FindSum(9.5,2.4);
+            FindSum(5,2.5);
+
+           
+        }
+    }
