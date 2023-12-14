@@ -1,4 +1,4 @@
-// Malachi Smith, Program Template, v0.05
+// Malachi Smith, Program Template, v0.06
 using System; 
 /*
 Missing Examples
@@ -59,4 +59,20 @@ namespace MethodsParameters
         static void AllMyChildren(string child1, string child2, string child3)
         {
              Console.WriteLine("my favorite child is " + child3);
+        }
+
+
+         static int FindSum(int x, int y)
+        {
+            int sum = x + y;
+            Console.WriteLine("Sum: "+ sum);
+            return sum;
+        }
+
+
+        static double FindSum(double x, double y)
+        {
+            double sum = x + y;
+            Console.WriteLine("Sum: "+ sum);
+            return sum;
         }
