@@ -1,4 +1,4 @@
-// Malachi Smith, Program Template, v0.02
+// Malachi Smith, Program Template, v0.03
 using System; 
 /*
 Missing Examples
@@ -40,4 +40,10 @@ namespace MethodsParameters
             for (int i = 0; i < num; i++)
             {
 
+            Console.WriteLine("one golden, Fluffy pancake coming up!\n");
+            
             }
+
+        }
+       
+        static void MakeEggs(int num, string style)
