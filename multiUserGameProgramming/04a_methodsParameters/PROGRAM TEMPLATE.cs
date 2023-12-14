@@ -1,4 +1,4 @@
-// Malachi Smith, Program Template, v0.03
+// Malachi Smith, Program Template, v0.04
 using System; 
 /*
 Missing Examples
@@ -47,3 +47,6 @@ namespace MethodsParameters
         }
        
         static void MakeEggs(int num, string style)
+        {  
+            Console.WriteLine("you have orrdered" + num + "eggs cooked" + style + ".\n");
+        }
