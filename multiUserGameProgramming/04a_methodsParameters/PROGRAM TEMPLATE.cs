@@ -1,4 +1,4 @@
-// Malachi Smith, Program Template, v0.01
+// Malachi Smith, Program Template, v0.02
 using System; 
 
 namespace MethodsParameters
@@ -25,11 +25,12 @@ namespace MethodsParameters
                 //sum *= 2;
                 //Console.WriteLine(sum);
                 returm sum;
+        }
+       
+       
+        static void MakePancakes(int num)
+    
+            for (int i = 0; i < num; i++)
+            {
+
             }
-
-            // Methods with Parameters
-            
-            static void Main(string[] args)
-
-    }
-}
