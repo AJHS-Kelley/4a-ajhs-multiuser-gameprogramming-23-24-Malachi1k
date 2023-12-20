@@ -1,4 +1,4 @@
-// Malachi Smith example Game Methods, v0.4
+// Malachi Smith example Game Methods, v0.5
 
 using System;
 
@@ -50,8 +50,6 @@ class AdventureGame
     }
 }
 
-
-
 static void ContinueAdventure(int locationChoice) 
 {
      // Method to continue the adventure based on the chosen location
@@ -74,3 +72,15 @@ static void ContinueAdventure(int locationChoice)
      else 
      { 
         // Recursive call to explore more locations 
+        ExploreGameLocations();  
+    }
+
+    static void DisplayPlayerStatus() 
+    {
+        
+         // Method to display player status 
+         Console.WriteLine($"Player: {playerName}");
+         Console.WriteLine($"Health: {playerHealth}"); 
+         Console.WriteLine($"Score: {playerScore}"); 
+    }
+}
