@@ -1,4 +1,4 @@
-// Malachi Smith example Game Methods, v0.1
+// Malachi Smith example Game Methods, v0.2
 
 using System;
 
@@ -20,6 +20,15 @@ class AdventureGame
         
         ExploreGameLocations();  
     }
+    
+    static void ExploreGameLocations() 
+    {
+         // Method to explore different game locations
+
+          Console.WriteLine($"Hello, {playerName}! Let's explore different locations.");
+           
+           for (int i = 0; i < gameLocations.Length; i++) 
+           { 
 
 
 
