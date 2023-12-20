@@ -1,4 +1,4 @@
-// Malachi Smith example Game Methods, v0.2
+// Malachi Smith example Game Methods, v0.3
 
 using System;
 
@@ -28,7 +28,27 @@ class AdventureGame
           Console.WriteLine($"Hello, {playerName}! Let's explore different locations.");
            
            for (int i = 0; i < gameLocations.Length; i++) 
-           { 
+        { 
+
+        Console.WriteLine($"1. Explore {gameLocations[i]}");
+    }
+    Console.Write("Enter your choice (1, 2, or 3): "); 
+    int choice = 
+    int.Parse(Console.ReadLine()); 
+    
+    if (choice >= 1 && choice <= gameLocations.Length) 
+    {
+         Console.WriteLine($"You chose to explore {gameLocations[choice - 1]}!");
+        // Call another method to continue the adventure 
+          ContinueAdventure(choice);
+            }
+            else
+            }
+        Console.WriteLine("Invalid choice. Please try again."); 
+        // Recursive call to itself until a valid choice is made 
+        ExploreGameLocations(); 
+    }
+}
 
 
 
