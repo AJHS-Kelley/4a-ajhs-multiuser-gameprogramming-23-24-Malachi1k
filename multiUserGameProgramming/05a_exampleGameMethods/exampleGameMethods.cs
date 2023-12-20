@@ -1,4 +1,4 @@
-// Malachi Smith example Game Methods, v0.3
+// Malachi Smith example Game Methods, v0.4
 
 using System;
 
@@ -52,3 +52,25 @@ class AdventureGame
 
 
 
+static void ContinueAdventure(int locationChoice) 
+{
+     // Method to continue the adventure based on the chosen location
+    Console.WriteLine($"You are now exploring {gameLocations[locationChoice - 1]}."); 
+    
+    // Your adventure logic goes here 
+    
+    // Example: Player loses health in the adventure 
+    playerHealth -= 20; 
+    // Example: Player gains score in the adventure
+    playerScore += 10.5f;
+    // Display player status
+    DisplayPlayerStatus(); 
+    // Check if the game is over 
+    if (playerHealth <= 0) 
+    {
+     Console.WriteLine("Game Over! Your health is depleted."); 
+     isGameOver = true; 
+     } 
+     else 
+     { 
+        // Recursive call to explore more locations 
