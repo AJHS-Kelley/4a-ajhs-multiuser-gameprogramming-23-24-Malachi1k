@@ -150,3 +150,22 @@ namespace _02_colections
             Console.WriteLine(myArrayList[2]);
             Console.WriteLine(myArrayList[3]);
         
+            // ArrayList Methods -- .Tnsert(index, value)
+            myArrayList2.Insert(1, "First Name");
+            Console.WriteLine(myArrayList2[1]);
+            Console.WriteLine(myArrayList2[2]);
+
+            // Removing Items from ArrayList -- .Removee() Deletes FIRST OCCURENCE of the item.
+            myArrayList2.Remove(-10);
+            Console.WriteLine(myArrayList2[0]);
+
+            // .RemoveAt(value) -- Deletes at the specified index value.
+            Console.WriteLine(".RemoveAt() Example");
+            Console.WriteLine(myArrayList2[3]);
+            myArrayList2.RemoveAt(3);
+            Console.WriteLine(myArrayList2[3]);
+
+            // .RemoveRange(value0, value1) -- Deletes items in the specified index range.
+            Console.WriteLine(".RmoveRange() Example");
+            
+            myArrayList2.RemoveRange(2, 4); // Remove index 2, 3, and 4.
